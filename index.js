@@ -37,7 +37,7 @@ client.on('ready', function () {
 client.on('messageCreate', function (message) {
     if (message.content === 'sing') {
         message.reply({
-            content: 'song'
+            content: 'song!'
         });
     }
 });

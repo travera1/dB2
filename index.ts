@@ -15,7 +15,7 @@ client.on('ready', () => {
 client.on('messageCreate',(message) => {
     if(message.content === 'sing') {
         message.reply ({
-            content: 'song'
+            content: 'song!'
         })
     }
 
